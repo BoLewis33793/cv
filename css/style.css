@@ -1,0 +1,267 @@
+body {
+    background-color: rgb(122, 158, 122);
+}
+
+/* Header Div */
+.header {
+    background-image: url("../images/forest.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+    padding: 20px;
+    height: 400px;
+    min-width: 90%;
+    min-height: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.header img:first-of-type {
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+}
+
+.header img:nth-of-type(2) {
+    position: absolute;
+    bottom: -6px;
+    right: 50px;
+}
+
+.header h1 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 30pt;
+    color: #364f36;
+}
+
+.header h2 {
+    font-family: 'Caveat', cursive;
+    font-size: 25pt;
+    color: #364f36;
+}
+
+.portrait img {
+    border-radius: 15%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 7px solid #587d58;
+}
+
+.text {
+    font-family: 'Inconsolata', monospace;
+    font-size: 12pt;
+}
+
+/* Content Div */
+.content {
+    padding: 10px;
+    margin: -8px;
+    background-color: #dfffdf;
+    text-align: center;
+}
+
+/* Horizontal Rule with fade */
+.content hr {
+    border: 0;
+    height: 3px;
+    background: #095484;
+    background-image: linear-gradient(to right, #dfffdf, #a9d7a9, #dfffdf);
+    width: 75%;
+}
+
+.content p {
+    text-align: center;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #4f724f;
+}
+
+.content h2 {
+    font-family: 'Inconsolata', monospace;
+    font-size: 25pt;
+    margin: 0;
+    color: #385138;
+}
+
+/* Languages Div */
+.languages {
+    display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    font-style: bold;
+    font-size: 15pt;
+    color: #4f724f;
+}
+
+.lang_desc {
+    float: left;
+    margin-right: 75px;
+    text-align: left;
+}
+
+.lang_Image {
+    float: right;
+    margin-bottom: 10px;
+}
+
+/* Leadership Div */
+.leadership {
+    display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    font-style: bold;
+    font-size: 15pt;
+    color: #4f724f;
+}
+
+.lead_desc {
+    float: right;
+    margin: 0;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.lead_Image {
+    float: left;
+    margin-bottom: 10px;
+}
+
+/* Skills Div */
+.skills {
+    display: inline-block;
+    font-family: 'Inconsolata', monospace;
+    font-style: bold;
+    font-size: 15pt;
+    color: #4f724f;
+}
+
+.skill_desc {
+    padding-top: 15px;
+    float: left;
+    text-align: left;
+}
+
+.skill_Image {
+    float: right;
+}
+
+/* Contact Font */
+.contact h3 {
+    margin-left: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+/* Button */
+.button {
+    background-color: transparent;
+    color: #7dab89;
+    border: 5px solid #7dab89;
+    border-radius: 10px;
+    padding: 4px 6px 4px 6px;
+    font-size: 36px;
+}
+
+.button:hover {
+    background-color: #7dab89;
+    color: #defbe7;
+    border: none
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #2c3f2c;
+}
+
+a:hover {
+    color: #95c49e;
+}
+
+/* Lists */
+dl {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.lead_desc dd {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin-left: -30px;
+    margin-right: -10px;
+    text-align: left;
+}
+
+.skill_desc dd {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin-left: -25px;
+    margin-right: -5px;
+}
+
+dt {
+    float: left;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer Div */
+.footer {
+    padding: 10px;
+    margin: -8px;
+    background-color: #8fbc8f;
+    text-align: center;
+}
+
+.footer p {
+    color: #dbfae1;
+    font-family: 'Inconsolata', monospace;
+    font-style: bold;
+    font-size: 20pt;
+}
+
+/* Horizontal Rule */
+hr {
+    background: rgb(122, 158, 122);
+    height: 4px;
+    border: 0;
+}
+
+/* Contact Page */
+.title {
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-style: bold;
+    font-size: 15pt;
+    background-color: #dfffdf;
+    padding: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    color: #364f36;
+}
+
+.contact_div {
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+}
+
+/* Form Descriptions */
+.form_desc {
+    float: left;
+    padding-left: 260px;
+    margin-right: -400px;
+}
+
+/* Form Fields */
+.form_field {
+    display: inline-block;
+    align-content: left;
+    margin: 4px;
+}
